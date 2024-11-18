@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 400px;
+    height: 500px;
+    border: 2px solid #000;
+    margin: auto;
+    overflow: hidden;
+}
+#block{
+    width:50px ;
+    background-color: #000;
+    height: 500px;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+
+@keyframes block{
+    0%{left: 400px;}
+    100%{left: -50px;}
+}
+
+#hole{
+    width: 50px;
+    height: 150px;
+    background-color: #d22b2b;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+    top:-500px
+
+}
